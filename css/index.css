@@ -120,6 +120,7 @@ top: 10px;
 	font-size: 48px;
 	font-style: normal;
 	font-weight: bolder;
+  white-space: pre-line;
 }
 
 .lowerhobbit span {
@@ -128,4 +129,15 @@ top: 10px;
 	font-size: 36px;
 	font-style: normal;
 	font-weight: lighter;
+	white-space: pre-line;
+}
+
+.lowerhobbit1  div {
+	margin: 20px;
+	color: black;
+	width: 50%;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: lighter;
+	white-space: pre-line;
 }
