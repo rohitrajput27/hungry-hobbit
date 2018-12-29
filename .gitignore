@@ -3,6 +3,7 @@
 /.settings/
 /.classpath
 /.idea
+/.idea/*
 /*.iml
 /service/*.iml
 /bin/
