@@ -11,7 +11,7 @@ body {
 .header {
   /* height: 100%;
 	width: 100%; */
-  padding-top: 100px;
+  padding-top: 90px;
   background-size: 100%;
   background-image: url('../images/coffeemain1_d1000.jpg');
   background-position: center;
@@ -93,35 +93,39 @@ top: 10px;
   color: white;
 }
 
+#aboutUs {
+  -webkit-box-sizing: border-box;
+  text-align: center;
+}
+
 #aboutUs div {
   -webkit-box-sizing: border-box;
   text-align: center;
-  margin: 60px;
+  margin: 55px;
 }
 
-.hobbit {
+.aboutUsHeader {
   -webkit-box-sizing: border-box;
   /* border: 2px; */
   padding: 60px;
   /* text-align: center; */
   background-image: url('../images/hobbitBorder-bottomright.png'),
-    url('../images/hobbitBorder-topleft.png');
+    url('../images/hobbitBorder-topleft.png'), url('../images/hobbitHeaderStaightLine.png');
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
 
-.hobbit span {
+.aboutUsHeader span {
   margin: 5%;
   color: black;
-  font-size: 48px;
+  font-size: 45px;
   font-style: normal;
   font-weight: bolder;
   white-space: pre-line;
 }
 
-.lowerhobbit span {
-  margin: 5%;
+.aboutUsLowerHeader span {
   color: black;
   font-size: 36px;
   font-style: normal;
@@ -129,12 +133,18 @@ top: 10px;
   white-space: pre-line;
 }
 
-.lowerhobbit1 div {
-  margin: 5%;
-  color: black;
+.aboutUsLowerHeader2 {
   width: 50%;
+  text-align: center;
+  display: inline-block;
+  margin-top: 0px;
+}
+
+.aboutUsLowerHeader2 span {
+  text-align: center;
+  color: black;
   font-size: 20px;
   font-style: normal;
   font-weight: lighter;
-  white-space: pre-line;
+  text-align: center;
 }
