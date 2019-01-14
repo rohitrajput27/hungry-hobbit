@@ -177,6 +177,7 @@ top: 10px;
   width: 49%;
   height: inherit;
 }
+
 .aboutUsLowerHeader4 div:nth-child(1) {
   text-align: right;
   padding-right: 5%;
@@ -184,15 +185,14 @@ top: 10px;
   height: inherit;
 }
 
-.aboutUsLowerHeader4 div:nth-child(2) div{
+.aboutUsLowerHeader4 div:nth-child(2) div {
   display: block;
-
 }
-.aboutUsLowerHeader4 div:nth-child(2) {
+
+.aboutUsLowerHeader4 div:nth-child(2) div{
   color: white;
   height: 100%;
   text-align: left;
-
 }
 
 #gallery {
